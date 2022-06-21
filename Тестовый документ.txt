@@ -1,1 +1,27 @@
-test onedwadwadwadwa
+git status | Покажет что проидексированно и в какой ветке
+git add . | Проиндексирует изменения
+git commit -m "название коммита" | сделат комит перед отправкой
+git push название проекта | отправит локальные изменения на удаленный сервер
+git push название проекта -d название ветки | удалит ветку
+git pull | подтянет измененя с удаленного сервера
+git checkout lol | перейдет в ветку lol
+git branch lol | создаст ветку lol
+git branch -d lol | удалит локальную ветку lol
+git branch -D lol | удалит локальную ветку lol жестким способом без предупреждений
+git branch -m lol lol1 | переименует ветку lol в lol1
+git branch -a | покажет все ветки локальные и удлаеные на сервере
+git push название проекта -d lol | удалит удаленную ветку на сервере lol
+git push название проекта -В lol | удалит удаленную ветку на сервере lol жестким способом без предупреждений
+git log | покажет все коммиты
+git diff | покажет что было изменнено - добавленно - удаленно в файле
+git init
+git clone <repository> | склонирует репозиторий на пк
+git gui | супер древнее меню для отображение информации
+
+get rest HEAD~ | отменит git add . и git commit ( пока не запушил на сервер )
+
+
+
+
+		Нормальный гит лог
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
